@@ -1,0 +1,128 @@
+[settings]
+
+screenchange-reload = true
+
+[bar/main]
+
+monitor = ${env:MONITOR:eDP1}
+
+width = 100%
+height = 18
+radius = 0.0
+padding = 1
+
+background = #000000
+foreground = #5299d9
+
+font-0 = "AnonymousPro:size=10;3"
+line-size = 0
+
+module-margin-left = 1
+module-margin-right = 1
+
+modules-left = music
+modules-center = i3
+modules-right = battery wlan date
+
+[bar/tray]
+
+monitor = ${env:MONITOR:eDP1}
+
+width = 1%
+height = 1
+radius = 0.0
+padding = 0
+bottom = true
+
+background = #000000
+foreground = #000000
+
+font-0 = "AnonymousPro:size=10;3"
+line-size = 0
+
+modules-right = fakecpu
+tray-position = center
+tray-transparent = false
+tray-maxsize = 1
+
+[module/music]
+
+type = custom/script
+interval = 1
+
+exec = ~/.config/polybar/music.sh
+click-left = playerctl next
+click-middle = playerctl previous
+click-right = playerctl play-pause
+
+[module/i3]
+
+type = internal/i3
+format = <label-state>
+index-sort = true
+wrapping-scroll = false
+
+strip-wsnumbers = true
+
+label-focused = %name%
+label-focused-background = #000000
+label-focused-foreground = #5299d9
+label-focused-padding = 1
+
+label-unfocused = %name%
+label-unfocused-background = #000000
+label-unfocused-foreground = #ffffff
+label-unfocused-padding = 1
+
+label-visible = %name%
+label-visible-background = #000000
+label-visible-foreground = #ffffff
+label-visible-padding = 1
+
+label-urgent = %name%
+label-urgent-background = #000000
+label-urgent-foreground = #ff0000
+label-urgent-padding = 1
+
+pin-workspaces = true
+
+[module/battery]
+type = internal/battery
+
+full-at = 92
+
+battery = BAT1
+adapter = ACAD
+
+poll-interval = 5
+
+time-format = %H:%M
+label-charging = CHR %percentage%%
+label-discharging = BAT %percentage%%
+label-full = FUL %percentage%%
+
+[module/wlan]
+
+type = internal/network
+interface = wlp2s0
+interval = 3
+
+format-connected = <label-connected>
+label-connected = /%essid%/
+
+format-disconnected = <label-disconnected>
+label-disconnected =
+
+[module/date]
+
+type = internal/date
+interval = 1
+
+date = %a%d
+time = "%H:%M"
+
+label = %date% ~ %time%
+
+[module/fakecpu]
+type = internal/cpu
+interval = 999999999999
