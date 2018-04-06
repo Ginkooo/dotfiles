@@ -4,3 +4,5 @@ common/weechat/\.weechat/logs/
 *.log
 
 common/weechat/\.weechat/sec\.conf
+
+common/weechat/\.weechat/urlserver_list\.txt
