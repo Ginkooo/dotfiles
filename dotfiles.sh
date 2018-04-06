@@ -25,6 +25,7 @@ function check
     is_installed htop
     is_installed i3lock-color
     is_installed neofetch
+    is_installed newsboat
     is_installed obsidian-2-theme
     is_installed obsidian-icon-theme
     is_installed okular
@@ -69,6 +70,9 @@ function common
 
     echo "-- hTop"
     stow -Rt ~ htop
+
+    echo "-- Newsboat"
+    stow -Rt ~ newsboat
 
     echo "-- PulseEffects"
     stow -Rt ~ pulseeffects
