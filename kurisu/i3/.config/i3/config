@@ -152,7 +152,7 @@ workspace $workspace3 output HDMI1
 workspace $workspace4 output HDMI1
 workspace $workspace5 output DP1
 workspace $workspace6 output DP1
-workspace $workspace7 output HDMI1
+workspace $workspace7 output eDP1
 workspace $workspace8 output DP1
 workspace $workspace9 output DP1
 workspace $workspace0 output eDP1
