@@ -40,9 +40,6 @@ font-0 = "AnonymousPro:size=10;3"
 line-size  = 0
 
 modules-center = i3
-tray-position = right
-tray-detached = true
-tray-transparent = false
 
 [bar/tray]
 
