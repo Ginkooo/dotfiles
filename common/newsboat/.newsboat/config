@@ -1,4 +1,4 @@
-show-keymap-hint true
+article-sort-order date
 auto-reload yes
 browser "~/.newsboat/browser.sh"
 cleanup-on-quit yes
@@ -7,8 +7,9 @@ feed-sort-order name-dec
 max-downloads 4
 player mpv
 refresh-on-startup yes
-reload-time 20
 reload-threads 2
+reload-time 20
+show-keymap-hint true
 show-read-articles yes
 show-read-feeds yes
 
@@ -24,6 +25,7 @@ bind-key "SPACE" open
 
 ignore-article "*" "title =~ \"Sponsor\""
 ignore-article "*" "title =~ \"Advertisement\""
+ignore-article "*" "title =~ \"[$]\""
 ignore-mode "display"
 
 color background        white   black
