@@ -2,6 +2,7 @@ export ZSH=/usr/share/oh-my-zsh/
 export ZSH_CUSTOM=$HOME/.zsh
 export CC=clang
 export CXX=clang++
+export VISUAL=vim
 
 export FZF_DEFAULT_COMMAND='fd --type f'
 
