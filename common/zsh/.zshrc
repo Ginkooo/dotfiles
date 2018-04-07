@@ -28,6 +28,8 @@ alias doot='sudo pacman -Syyu'
 alias paclean='sudo pacman -Rns $(pacman -Qtdq)'
 alias paclist='expac --timefmt="%Y-%m-%d %T" "%l\t%n" | sort'
 
+alias stream='streamlink --player=mpv'
+
 alias own='sudo chown -R glamhoth:glamhoth'
 alias mod='sudo chmod -R 777'
 alias weather='curl -s wttr.in/Lublin | head -7'
