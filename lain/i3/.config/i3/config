@@ -41,6 +41,8 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+a focus parent
 bindsym $mod+z focus child
 
+bindsym --release Print exec ~/.config/i3/screenshot.sh
+
 set $workspace1 "1"
 set $workspace2 "2"
 set $workspace3 "3"
