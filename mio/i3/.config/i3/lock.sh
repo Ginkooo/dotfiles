@@ -10,7 +10,6 @@ V='#5299d9ff'  # verifying
 i3lock                              \
     -c 000000                       \
     -f                              \
-    -u                              \
     --insidevercolor=#00000000      \
     --ringvercolor=#00000000        \
     \
@@ -20,13 +19,13 @@ i3lock                              \
     --insidecolor=#00000000         \
     --ringcolor=#00000000           \
     --linecolor=#00000000           \
-    --separatorcolor=#5299d9ff      \
+    --separatorcolor=#00000000      \
     \
     --verifcolor=#5299d9ff          \
     --wrongcolor=#ff0000ff          \
     --timecolor=#5299d9ff           \
     --datecolor=#5299d9ff           \
-    --keyhlcolor=#5299d9ff          \
+    --keyhlcolor=#00000000          \
     --bshlcolor=#5299d9ff           \
     \
     --screen 0                      \
