@@ -28,7 +28,7 @@ i3lock                              \
     --keyhlcolor=#00000000          \
     --bshlcolor=#5299d9ff           \
     \
-    --screen 0                      \
+    --screen 1                      \
     --clock                         \
     --timesize=50                   \
     --verifsize=50                  \
