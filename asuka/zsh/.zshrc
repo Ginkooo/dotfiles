@@ -28,6 +28,8 @@ alias doot='sudo pacman -Syyu'
 alias paclean='sudo pacman -Rns $(pacman -Qtdq)'
 alias paclist='expac --timefmt="%Y-%m-%d %T" "%l\t%n" | sort'
 
+alias weechat='TERM=screen-256color weechat'
+
 alias own='sudo chown -R glamhoth:users'
 alias mod='sudo chmod -R 777'
 alias weather='curl -s wttr.in/Lublin | head -7'
