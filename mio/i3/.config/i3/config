@@ -147,6 +147,7 @@ assign [class="jetbrains-clion"] $workspace4
 assign [class="GitKraken"] $workspace5
 assign [class="Caprine"] $workspace7
 assign [class="vlc"] $workspace8
+assign [class="mpv"] $workspace8
 assign [class="ktorrent"] $workspace8
 assign [class="Steam"] $workspace9
 assign [class="Spotify"] $workspace0
