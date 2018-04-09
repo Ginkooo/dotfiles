@@ -51,15 +51,11 @@ class Default(ColorScheme):
                     fg = white
                 else:
                     fg = red
-            if not context.selected and (context.cut or context.copied):
-                fg = black
-                attr |= bold
             if context.main_column:
                 if context.selected:
                     attr |= bold
                 if context.marked:
                     attr |= bold
-                    fg = yellow
             if context.badinfo:
                 if attr & reverse:
                     bg = magenta
