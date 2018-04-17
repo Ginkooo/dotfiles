@@ -100,7 +100,8 @@ mode "resize"
 bindsym $mod+o mode "launch"
 mode "launch"
 {
-    bindsym f exec firefox; mode "default"
+    bindsym q exec qutebrowser; mode "default"
+    bindsym g exec gitkraken; mode "default"
 
     bindsym Return mode "default"
     bindsym Escape mode "default"
