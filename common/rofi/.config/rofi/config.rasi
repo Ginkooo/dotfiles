@@ -19,9 +19,9 @@ configuration {
 /*	run-shell-command: "{terminal} -e {cmd}";*/
 /*	window-command: "xkill -id {window}";*/
 /*	drun-icon-theme: ;*/
-  	disable-history: true;
-	sort: true;
-	levenshtein-sort: true;
+  	disable-history: false;
+	sort: false;
+	levenshtein-sort: false;
 /*	case-sensitive: false;*/
 /*	cycle: true;*/
 /*	sidebar-mode: false;*/
