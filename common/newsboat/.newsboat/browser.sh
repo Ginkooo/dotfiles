@@ -1,2 +1,2 @@
 #/bin/sh
-/usr/bin/firefox "$@" > dev/null 2>&1 &
+/usr/bin/qutebrowser "$@" > dev/null 2>&1 &
