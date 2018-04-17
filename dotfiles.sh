@@ -34,7 +34,8 @@ function check
     is_installed playerctl
     is_installed polybar
     is_installed pulseaudio
-    is_installed pulseeffects
+    is_installed pulseaudio-equalizer
+    is_installed pulseaudio-equalizer-ladspa
     is_installed python-i3-py
     is_installed qt5-styleplugins
     is_installed qt5ct
@@ -74,9 +75,6 @@ function common
 
     echo "-- Newsboat"
     stow -Rt ~ newsboat
-
-    echo "-- PulseEffects"
-    stow -Rt ~ pulseeffects
 
     echo "-- Qt5ct"
     stow -Rt ~ qt5ct
