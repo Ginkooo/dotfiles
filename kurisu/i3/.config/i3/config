@@ -161,7 +161,6 @@ workspace $workspace9 output DP1
 workspace $workspace0 output eDP1
 
 exec --no-startup-id redshift
-exec --no-startup-id pulseeffects --gapplication-service
 
 bar
 {
