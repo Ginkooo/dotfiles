@@ -38,6 +38,7 @@ function check
     is_installed python-i3-py
     is_installed qt5-styleplugins
     is_installed qt5ct
+    is_installed qutebrowser
     is_installed ranger
     is_installed redshift
     is_installed rofi
@@ -79,6 +80,9 @@ function common
 
     echo "-- Qt5ct"
     stow -Rt ~ qt5ct
+
+    echo "-- Qutebrowser"
+    stow -Rt ~ qutebrowser
 
     echo "-- Ranger"
     stow -Rt ~ ranger
