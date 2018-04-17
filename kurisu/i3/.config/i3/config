@@ -142,6 +142,7 @@ for_window [window_role="task_dialog"] floating enable, border none
 for_window [title="Preferences$"] floating enable, border none
 
 assign [class="Firefox"] $workspace2
+assign [class="qutebrowser"] $workspace2
 assign [class="QtCreator"] $workspace4
 assign [class="CLion"] $workspace4
 assign [class="GitKraken"] $workspace5
