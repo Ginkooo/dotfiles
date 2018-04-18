@@ -33,6 +33,8 @@ Plugin 'Rip-Rip/clang_complete'
 Plugin 'majutsushi/tagbar'
 Plugin 'vhdirk/vim-cmake'
 Plugin 'xuhdev/vim-latex-live-preview'
+Plugin 'letorbi/vim-colors-borland'
+Plugin 'OrangeT/vim-csharp'
 
 call vundle#end()
 " --- Vundle ---
@@ -43,6 +45,9 @@ filetype plugin indent on
 syntax on
 colorscheme sorcerer
 hi CursorLine ctermfg=none ctermbg=8
+set termguicolors
+colorscheme borland
+"hi CursorLine ctermfg=none ctermbg=8
 
 " --- Scheme ---
 
@@ -164,7 +169,7 @@ nnoremap <Leader>v V`]
 
 " --- Airline ---
 " let g:airline_theme='lucius'
-let g:airline_theme='nord'
+let g:airline_theme='papercolor'
 
 let g:airline_left_sep=''
 let g:airline_right_sep=''
