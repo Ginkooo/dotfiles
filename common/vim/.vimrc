@@ -27,6 +27,7 @@ Plugin 'qpkorr/vim-bufkill'
 Plugin 'justinmk/vim-syntax-extra'
 Plugin 'maralla/completor.vim'
 Plugin 'Rip-Rip/clang_complete'
+Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'majutsushi/tagbar'
 Plugin 'vhdirk/vim-cmake'
 Plugin 'xuhdev/vim-latex-live-preview'
@@ -40,12 +41,10 @@ filetype plugin indent on
 
 " --- Scheme ---
 syntax on
-colorscheme sorcerer
-hi CursorLine ctermfg=none ctermbg=8
-set termguicolors
-colorscheme borland
-"hi CursorLine ctermfg=none ctermbg=8
+colorscheme badwolf
 
+let g:cpp_class_scope_highlight = 1
+let g:cpp_class_decl_highlight = 1
 " --- Scheme ---
 
 " --- Settings ---
@@ -166,7 +165,8 @@ nnoremap <Leader>v V`]
 
 " --- Airline ---
 " let g:airline_theme='lucius'
-let g:airline_theme='papercolor'
+" let g:airline_theme='papercolor'
+let g:airline_theme='nord'
 
 let g:airline_left_sep=''
 let g:airline_right_sep=''
