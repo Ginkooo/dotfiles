@@ -20,6 +20,8 @@ settings:
         <ctrl-j>: scroll-px 0 400
         <ctrl-k>: scroll-px 0 -400
         <ctrl-q>: null
+        <Left>: tab-move -
+        <Right>: tab-move +
         m: spawn mpv {url}
         q: null
         J: tab-prev
