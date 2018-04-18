@@ -248,3 +248,5 @@ settings:
       DEFAULT: https://duckduckgo.com/?q={}
       aur: https://aur.archlinux.org/packages/?O=0&K={}
       redd: https://reddit.com/r/{}
+      git: https://github.com/search?q={}
+      arch: https://wiki.archlinux.org/index.php/{}
