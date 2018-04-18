@@ -2,9 +2,6 @@ set noeb vb t_vb=
 set shortmess+=I
 set autochdir
 
-highlight ColorColumn ctermbg=45
-match ColorColumn /\%121v\s*\S/
-
 set nocompatible
 
 " --- Vundle ---
@@ -224,3 +221,6 @@ let g:clang_library_path='/usr/lib'
 " --- Tagbar ---
 map <F4> :TagbarToggle<CR>
 " --- Tagbar ---
+
+highlight ColorColumn ctermbg=2
+match ColorColumn /\%121v\s*\S/
