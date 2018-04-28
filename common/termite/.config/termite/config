@@ -6,7 +6,7 @@ cursor_blink = on
 cursor_shape = block
 dynamic_title = true
 filter_unmatched_urls = true
-font = Anonymous Pro 9
+font = Anonymous Pro 11
 fullscreen = false
 mouse_autohide = true
 scrollback_lines = 10000
@@ -19,7 +19,7 @@ urgent_on_bell = true
 foreground      = #ffffff
 foreground_bold = #ffffff
 cursor          = #ffffff
-background      = #000000
+background      = #1c202b
 
 color0  = #080808
 color1  = #6b6b6b
