@@ -11,7 +11,7 @@ height = 18
 radius = 0.0
 padding = 2
 
-background = #000000
+background = #1c202b
 foreground = #5299d9
 
 font-0 = "AnonymousPro:size=10;3"
@@ -33,7 +33,7 @@ height = 18
 radius = 0.0
 padding = 2
 
-background = #000000
+background = #1c202b
 foreground = #ffffff
 
 font-0 = "AnonymousPro:size=10;3"
@@ -82,22 +82,22 @@ wrapping-scroll = false
 strip-wsnumbers = true
 
 label-focused = %name%
-label-focused-background = #000000
+label-focused-background = #1c202b
 label-focused-foreground = #5299d9
 label-focused-padding = 1
 
 label-unfocused = %name%
-label-unfocused-background = #000000
+label-unfocused-background = #1c202b
 label-unfocused-foreground = #ffffff
 label-unfocused-padding = 1
 
 label-visible = %name%
-label-visible-background = #000000
+label-visible-background = #1c202b
 label-visible-foreground = #ffffff
 label-visible-padding = 1
 
 label-urgent = %name%
-label-urgent-background = #000000
+label-urgent-background = #1c202b
 label-urgent-foreground = #ff0000
 label-urgent-padding = 1
 
