@@ -33,6 +33,7 @@ Plugin 'vhdirk/vim-cmake'
 Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'letorbi/vim-colors-borland'
 Plugin 'OrangeT/vim-csharp'
+Plugin 'tyrannicaltoucan/vim-deep-space'
 
 call vundle#end()
 " --- Vundle ---
@@ -41,10 +42,13 @@ filetype plugin indent on
 
 " --- Scheme ---
 syntax on
-colorscheme badwolf
+set background=dark
+set termguicolors
+colorscheme deep-space
 
 let g:cpp_class_scope_highlight = 1
 let g:cpp_class_decl_highlight = 1
+let g:cpp_experimental_simple_template_highlight = 1
 " --- Scheme ---
 
 " --- Settings ---
@@ -164,9 +168,7 @@ nnoremap <Leader>v V`]
 " --- Keyboard ---
 
 " --- Airline ---
-" let g:airline_theme='lucius'
-" let g:airline_theme='papercolor'
-let g:airline_theme='nord'
+let g:airline_theme='deep_space'
 
 let g:airline_left_sep=''
 let g:airline_right_sep=''
