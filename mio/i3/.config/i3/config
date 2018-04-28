@@ -169,7 +169,7 @@ workspace $workspace9 output HDMI1
 workspace $workspace0 output VGA1
 
 exec --no-startup-id redshift
-exec --no-startup-id pulseeffects --gapplication-service
+exec --no-startup-id nitrogen --restore
 
 bar
 {
