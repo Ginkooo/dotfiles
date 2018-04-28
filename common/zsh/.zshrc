@@ -4,7 +4,7 @@ export CC=clang
 export CXX=clang++
 export VISUAL=vim
 
-export FZF_DEFAULT_COMMAND='fd --type f'
+export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --glob "!.git/*"'
 
 ZSH_THEME="glamhoth"
 

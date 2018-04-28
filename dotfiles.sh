@@ -16,7 +16,6 @@ function check
     is_installed atool
     is_installed ctags
     is_installed expac
-    is_installed fd
     is_installed feh
     is_installed fzf
     is_installed git
@@ -42,6 +41,7 @@ function check
     is_installed qutebrowser
     is_installed ranger
     is_installed redshift
+    is_installed ripgrep
     is_installed rofi
     is_installed scrot
     is_installed stow
