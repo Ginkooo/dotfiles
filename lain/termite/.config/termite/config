@@ -1,0 +1,39 @@
+[options]
+allow_bold = true
+audible_bell = false
+clickable_url = true
+cursor_blink = on
+cursor_shape = block
+dynamic_title = true
+filter_unmatched_urls = true
+font = Anonymous Pro 9
+fullscreen = false
+mouse_autohide = true
+scrollback_lines = 10000
+scroll_on_keystroke = true
+scroll_on_output = false
+search_wrap = true
+urgent_on_bell = true
+
+[colors]
+foreground      = #ffffff
+foreground_bold = #ffffff
+cursor          = #ffffff
+background      = #1c202b
+
+color0  = #080808
+color1  = #6b6b6b
+color2  = #5299d9
+color3  = #b3b3b3
+color4  = #5299d9
+color5  = #717171
+color6  = #5299d9
+color7  = #b5cabb
+color8  = #202020
+color9  = #464646
+color10 = #f8f8f8
+color11 = #5299d9
+color12 = #7c7c7c
+color13 = #adadad
+color14 = #c0c0c0
+color15 = #99ac9e

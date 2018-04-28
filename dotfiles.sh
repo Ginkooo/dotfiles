@@ -91,9 +91,6 @@ function common
     echo "-- Rofi"
     stow -Rt ~ rofi
 
-    echo "-- Termite"
-    stow -Rt ~ termite
-
     echo "-- Vim"
     stow -Rt ~ vim
 
@@ -116,6 +113,9 @@ function mio
     echo "-- Polybar"
     stow -Rt ~ polybar
 
+    echo "-- Termite"
+    stow -Rt ~ termite
+
     popd > /dev/null
 }
 
@@ -129,6 +129,9 @@ function lain
     echo "-- Polybar"
     stow -Rt ~ polybar
 
+    echo "-- Termite"
+    stow -Rt ~ termite
+
     popd > /dev/null
 }
 
@@ -141,6 +144,9 @@ function kurisu
 
     echo "-- Polybar"
     stow -Rt ~ polybar
+
+    echo "-- Termite"
+    stow -Rt ~ termite
 
     popd > /dev/null
 }
