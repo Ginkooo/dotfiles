@@ -40,27 +40,8 @@ font-0 = "AnonymousPro:size=10;3"
 line-size  = 0
 
 modules-center = i3
-
-[bar/tray]
-
-monitor = ${env:MONITOR:VGA1}
-
-width = 1%
-height = 1
-radius = 0.0
-padding = 0
-bottom = true
-
-background = #000000
-foreground = #000000
-
-font-0 = "AnonymousPro:size=10;3"
-line-size = 0
-
-modules-right = fakecpu
-tray-position = center
-tray-transparent = transparent = false
-tray-maxsize = 1
+tray-position = left
+tray-transparent = false
 
 [module/music]
 
@@ -148,7 +129,3 @@ date = %a%d
 time = "%H:%M"
 
 label = %date% ~ %time%
-
-[module/fakecpu]
-type = internal/cpu
-interval = 999999999999
