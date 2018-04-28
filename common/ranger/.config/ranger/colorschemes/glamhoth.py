@@ -30,7 +30,7 @@ class Default(ColorScheme):
             if context.border:
                 fg = blue
             if context.directory:
-                fg = white
+                fg = blue
             elif context.executable and not \
                     any((context.media, context.container,
                          context.fifo, context.socket)):
