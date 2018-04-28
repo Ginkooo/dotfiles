@@ -8,7 +8,7 @@ W='#ff0000ff'  # wrong
 V='#5299d9ff'  # verifying
 
 i3lock                              \
-    -c 000000                       \
+    -c 1c202b                       \
     -f                              \
     --insidevercolor=#00000000      \
     --ringvercolor=#00000000        \
