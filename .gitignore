@@ -7,3 +7,5 @@ common/weechat/\.weechat/urlserver_list\.txt
 *.log
 *.pyc
 *.search
+
+common/qutebrowser/\.config/qutebrowser/qsettings/QtProject\.conf
