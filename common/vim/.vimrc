@@ -33,6 +33,7 @@ Plugin 'vhdirk/vim-cmake'
 Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'letorbi/vim-colors-borland'
 Plugin 'OrangeT/vim-csharp'
+Plugin 'OmniSharp/omnisharp-vim'
 Plugin 'tyrannicaltoucan/vim-deep-space'
 
 call vundle#end()
@@ -223,6 +224,15 @@ let g:clang_library_path='/usr/lib'
 " --- Tagbar ---
 map <F4> :TagbarToggle<CR>
 " --- Tagbar ---
+
+" --- Omnisharp ---
+autocmd FileType cs set omnifunc=OmniSharp#Complete
+autocmd FileType cs inoremap <Leader><Tab> <C-x><C-o>
+autocmd FileType cs nnoremap <silent> <C-]> :OmniSharpGotoDefinition<CR>
+
+let g:OmniSharp_server_path='/opt/omnisharp-roslyn/omnisharp/OmniSharp.exe'
+let g:OmniSharp_selector_ui = 'fzf'
+" --- Omnisharp ---
 
 highlight ColorColumn ctermbg=2
 match ColorColumn /\%121v\s*\S/
