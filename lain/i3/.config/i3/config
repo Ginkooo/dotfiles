@@ -2,9 +2,9 @@ set $mod Mod4
 
 font pango:Anonymous Pro 13px
 
-client.focused          #000000 #5299d9 #1A1AlA
-client.focused_inactive #000000 #000000 #AAAAAA
-client.unfocused        #000000 #000000 #808080
+client.focused          #5299d9 #5299d9 #1A1AlA
+client.focused_inactive #1c202b #1c202b #AAAAAA
+client.unfocused        #1c202b #1c202b #808080
 client.urgent           #AC4142 #AC4142 #ffffff
 
 floating_modifier $mod
