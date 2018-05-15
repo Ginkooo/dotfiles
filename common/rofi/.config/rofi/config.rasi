@@ -32,7 +32,7 @@ configuration {
 /*	combi-modi: "window,run";*/
 	matching: "fuzzy";
 /*	tokenize: true;*/
-	m: "-1";
+	m: "-4";
 /*	line-margin: 2;*/
 /*	line-padding: 1;*/
 /*	filter: ;*/
