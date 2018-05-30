@@ -49,7 +49,8 @@ colorscheme deep-space
 
 let g:cpp_class_scope_highlight = 1
 let g:cpp_class_decl_highlight = 1
-let g:cpp_experimental_simple_template_highlight = 1
+
+highlight LineNr guifg=#888888
 " --- Scheme ---
 
 " --- Settings ---
@@ -126,8 +127,6 @@ nmap E $
 nmap E $
 
 nnoremap Y y$
-
-nmap <CR> G
 
 nmap <Leader>p "+p
 nmap <Leader>P "+P
@@ -218,7 +217,7 @@ inoremap <expr> <cr>  pumvisible() ? "\<C-y>" : "\<cr>"
 " --- Completor ---
 
 " --- Clang Complete ---
-let g:clang_library_path='/usr/lib'
+let g:clang_library_path='/usr/lib/libclang.so'
 " --- Clang Complete ---
 
 " --- Tagbar ---
