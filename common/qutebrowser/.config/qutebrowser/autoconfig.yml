@@ -17,15 +17,15 @@ settings:
   bindings.commands:
     global:
       normal:
+        <Left>: tab-move -
+        <Right>: tab-move +
         <ctrl-j>: scroll-px 0 400
         <ctrl-k>: scroll-px 0 -400
         <ctrl-q>: null
-        <Left>: tab-move -
-        <Right>: tab-move +
-        m: spawn mpv {url}
-        q: null
         J: tab-prev
         K: tab-next
+        m: spawn mpv {url}
+        q: null
   colors.completion.category.bg:
     global: black
   colors.completion.category.border.bottom:
@@ -245,8 +245,10 @@ settings:
     global: 20%
   url.searchengines:
     global:
-      DEFAULT: https://duckduckgo.com/?q={}
-      aur: https://aur.archlinux.org/packages/?O=0&K={}
-      redd: https://reddit.com/r/{}
-      git: https://github.com/search?q={}
+      DEFAULT: https://www.startpage.com/do/search?language=english&cat=web&query={}
       arch: https://wiki.archlinux.org/index.php/{}
+      aur: https://aur.archlinux.org/packages/?O=0&K={}
+      git: https://github.com/search?q={}
+      redd: https://reddit.com/r/{}
+      cpp: http://en.cppreference.com/mwiki/index.php?title=Special%3ASearch&search={}
+      yt: https://www.youtube.com/results?search_query={}
