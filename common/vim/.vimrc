@@ -9,9 +9,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'adlawson/vim-sorcerer'
-Plugin 'sjl/badwolf'
-Plugin 'arcticicestudio/nord-vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpenguinltg/vim-closing-brackets'
@@ -26,12 +23,9 @@ Plugin 'vim-scripts/SelectBuf'
 Plugin 'qpkorr/vim-bufkill'
 Plugin 'justinmk/vim-syntax-extra'
 Plugin 'maralla/completor.vim'
-Plugin 'Rip-Rip/clang_complete'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'majutsushi/tagbar'
-Plugin 'vhdirk/vim-cmake'
 Plugin 'xuhdev/vim-latex-live-preview'
-Plugin 'letorbi/vim-colors-borland'
 Plugin 'OrangeT/vim-csharp'
 Plugin 'OmniSharp/omnisharp-vim'
 Plugin 'tyrannicaltoucan/vim-deep-space'
@@ -115,7 +109,7 @@ vmap <silent> <F2> <Esc>:w<CR>
 
 map <silent> <F7> :set hlsearch!<CR>
 
-nmap <silent> <F8> :AsyncRun -cwd=<root> make<CR><C-l>
+nmap <silent> <F8> :AsyncRun -cwd=<root> make<CR>
 nmap <silent> <F9> :AsyncRun -cwd=<root> ./run.sh<CR>
 
 nnoremap ' `
