@@ -170,6 +170,50 @@ function asuka
     popd > /dev/null
 }
 
+function cyberia
+{
+    pushd cyberia > /dev/null
+
+    echo "-- i3"
+    stow -Rt ~ i3
+
+    echo "-- gtk"
+    stow -Rt ~ gtk
+
+    echo "-- htop"
+    stow -Rt ~ htop
+
+    echo "-- qt5ct"
+    stow -Rt ~ qt5ct
+
+    echo "-- qutebrowser"
+    stow -Rt ~ qutebrowser
+
+    echo "-- ranger"
+    stow -Rt ~ ranger
+
+    echo "-- gtk"
+    stow -Rt ~ gtk
+
+    echo "-- redshift"
+    stow -Rt ~ redshift
+
+    echo "-- rofi"
+    stow -Rt ~ rofi
+
+    echo "-- weechat"
+    stow -Rt ~ weechat
+
+    echo "-- termite"
+    stow -Rt ~ termite
+
+    echo "-- vim"
+    stow -Rt ~ vim
+
+    echo "-- zsh"
+    stow -Rt ~ zsh
+}
+
 sudo echo
 
 check
@@ -202,6 +246,11 @@ case "$HOSTNAME" in
         printf " - ${RED}Asuka${NC}\n"
         asuka
         ;;
+
+    cyberia)
+	printf " - ${RED}Cyberia${NC}\n"
+	cyberia
+	;;
 
     *)
         printf "Hostname unknown.${NC}\n"
